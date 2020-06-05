@@ -1,0 +1,31 @@
+.intro {
+    @include center-flex(all);
+    height: 920px;
+    background-image: linear-gradient(rgba(44, 62, 80, 0.3), rgba(44, 62, 80, 0.3)), 
+    url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $main-color;
+    text-align: center;
+}
+
+.intro__title {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+
+    @media (max-width: 480px) {
+        font-size: 34px;
+        letter-spacing: 3px;
+    }
+
+}
+
+.intro__description {
+    font-family: Raleway, "Times New Roman", Times, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
