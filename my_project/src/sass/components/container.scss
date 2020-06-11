@@ -1,5 +1,45 @@
+// .container {
+//     margin: 0 auto;
+//     max-width: 1200px;
+//     // position: absolute;
+// }
+
+
+
+// .container {
+//     margin: 0 auto;
+//     max-width: 320px ;
+// }
+
 .container {
-    margin: 0 auto;
-    max-width: 1200px;
-    // position: absolute;
-}
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+//   @media (min-width: 576px) {
+//     .container {
+//       max-width: 540px;
+//     }
+//   }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  

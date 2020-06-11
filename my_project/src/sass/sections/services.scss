@@ -1,0 +1,86 @@
+.services {
+    // padding: 120px 0 100px;
+    color: rgb(102, 102, 102);
+    background: #f5f5f5;
+    // font-family: $main-first-font;
+}
+
+.services__title {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+
+    @media ( max-width: 480px) {
+        font-size: 24px;
+        letter-spacing: 3px;
+        
+    }
+
+    &::after {
+    display: block;
+    content: '';
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+
+ 
+}
+
+}
+// Зробити медию на 768 рх
+.services__description {
+    margin-bottom: 40px;
+    // padding: 0 20%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.8;
+   font-size: 18px;
+}
+
+.services__list {
+    padding: 0 15px;
+
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+
+.services__item {
+    background: #fff;
+    border-bottom: 1px solid #d4d4d4;
+    text-align: center;
+    padding: 40px 20px;
+
+
+    @media (max-width: 767px) {
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+        }
+
+    @media  (min-width: 768px) {
+        &:not(:last-child) {
+            margin-right: 20px;
+            }
+        }
+    }
+
+
+.services__item-title {
+margin-bottom: 15px;
+color: rgb(34, 34, 34);
+
+//  Колір поправити i іконки повставляти
+    &::before {
+        display: block;
+        margin: 0 auto 15px;
+        content: '';
+        width: 32px;
+        height: 32px;
+        background-image: url(../images/magic-wand.svg);
+}
+}
