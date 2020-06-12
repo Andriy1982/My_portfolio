@@ -1,0 +1,29 @@
+.scroll-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: rgba(135, 135, 135, 0.5);
+    border-radius: 3px;
+    transition: all 200ms linear;
+
+    &::before {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        content: '';
+background-image: url(../images/scrool.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+    }
+
+    &:hover {
+        background-color: rgba(235, 235, 235, .8);
+    }
+}
