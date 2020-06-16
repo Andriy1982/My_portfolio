@@ -81,6 +81,24 @@ color: rgb(34, 34, 34);
         content: '';
         width: 32px;
         height: 32px;
+        
+    }
+
+    &--design::before {
         background-image: url(../images/magic-wand.svg);
-}
+    }
+
+    &--programming::before {
+        background-image: url(../images/steam2.svg);
+    }
+
+    &--branding::before {
+        background-image: url(../images/joomla.svg);
+    }
+
+    &--consultation::before {
+        background-image: url(../images/question.svg);
+    }
+
+
 }

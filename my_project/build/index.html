@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <title>Placeholder title</title>
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
@@ -25,34 +26,73 @@
         <a href="#servises" class="scroll-down"></a>
        
     </section>
-    
-    <main>
-    <section id="servises" class="services sections">
+    <header class="header">
         <div class="container">
-            <h2 class="services__title title">This is what I do</h2>
+            <nav class="navigation">
+                <div class="logo-wrap">
+                    <a href="index.html" class="logo">AK</a>
+                </div> 
+                    <!-- <div class="button-wrap"> -->
+                        <!-- <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+                        <label for="nav-trigger"></label> -->
+                    <!-- </div>  
+                    <! <button class="button-nav"></button> -->
+                <!-- </div>
+                <div class="button-wrap"> --> 
+                        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+                        <label for="nav-trigger"></label>
+                   
+    
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#services" class="navigation__link">Services</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#works" class="navigation__link">Works</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Skills</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#testimonials" class="navigation__link">Testimonials</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#contact" class="navigation__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <section id="services" class="services sections">
+        <div class="container">
+            <h2 class="services__title title ">This is what I do</h2>
             <p class="services__description">No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.</p>
             <ul class="services__list">
                 <li class="services__item">
-                    <h3 class="services__item-title">Web Design</h3>
+                    <h3 class="services__item-title services__item-title--design">Web Design</h3>
                     <p class="services__item-description">Good things come to those who wait, but only the things left by those who hustle</p>
                 </li>
                 <li class="services__item">
-                    <h3 class="services__item-title">Web Programming</h3>
+                    <h3 class="services__item-title services__item-title--programming">Web Programming</h3>
                     <p class="services__item-description">Good things come to those who wait, but only the things left by those who hustle</p>
                 </li>
                 <li class="services__item">
-                    <h3 class="services__item-title">Branding</h3>
+                    <h3 class="services__item-title services__item-title--branding">Branding</h3>
                     <p class="services__item-description">Good things come to those who wait, but only the things left by those who hustle</p>
                 </li>
                 <li class="services__item">
-                    <h3 class="services__item-title">Consultation</h3>
+                    <h3 class="services__item-title services__item-title--consultation">Consultation</h3>
                     <p class="services__item-description">Good things come to those who wait, but only the things left by those who hustle</p>
                 </li>
             </ul>       
         </div>
      
     </section>
-    <section class="works sections">
+    <section  id="works" class="works sections">
         <div class="container">
             <!-- Винести заголовок і опис в окремий файл -->
             <h2 class="services__title title">My works</h2>
@@ -106,8 +146,23 @@
     
     </section>
     
-    
-    <section class="contact sections">
+    <section id="testimonials" class="testimonials sections">
+        <div class="container">
+            <h2 class="services__title title">What my clients say</h2>
+            <p class="services__description ">No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.</p>
+            <span class="testimonials-strip"></span>
+            <div class="testimonials-wrap">
+                <blockquote>
+                <p class="testimonials__text">I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
+                <p class="testimonials__text-author">Jane Doe</p>
+                </blockquote>
+                <img src="./images/client-2.jpg" alt="client" class="testimonials__img">
+            </div>
+            
+        </div>
+     
+    </section>
+    <section id="contact" class="contact sections">
         <div class="container">
             <h2 class="services__title title">Drop me a line</h2>
             <p class="services__description">No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.</p>
